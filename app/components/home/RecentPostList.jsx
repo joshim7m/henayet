@@ -7,7 +7,7 @@ export const RecentPostList = async () => {
 
   return (
     <div className="mx-auto max-w-[1170px] px-4 sm:px-8 xl:px-0 my-10">
-      <div className="flex flex-col gap-12">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
         {posts.map((post, index) => (
           <PostCard key={index} post={post} />
         ))}
