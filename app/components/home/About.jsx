@@ -7,7 +7,7 @@ export const About = () => {
         
         {/* Left Column: Detailed Bio */}
         <div className="lg:col-span-8">
-          <h2 className="text-3xl font-bold text-dark dark:text-white mb-6">
+          <h2 className="text-center md:text-start text-3xl font-bold text-dark dark:text-white mb-6">
             About Me
           </h2>
           <div className="flex flex-col gap-6 text-base leading-relaxed text-gray-600 dark:text-gray-400">
@@ -37,8 +37,8 @@ export const About = () => {
 
         {/* Right Column: Quick Info / Highlights */}
         <div className="lg:col-span-4 flex flex-col gap-6">
-          <div className="p-8 rounded-2xl bg-gray-50 dark:bg-white/5 border border-gray-100 dark:border-white/10">
-            <h3 className="text-xl font-bold text-dark dark:text-white mb-4">Focus Areas</h3>
+          <div className="p-2 md:p-8 rounded-2xl bg-gray-50 dark:bg-white/5 border border-gray-100 dark:border-white/10">
+            <h3 className="text-center md:text-start text-xl font-bold text-dark dark:text-white mb-4">Focus Areas</h3>
             <ul className="flex flex-wrap gap-2">
               {["Islamic Finance", "FinTech", "Data Analytics", "Sustainable Dev", "Blockchain", "Compliance"].map((tag) => (
                 <span key={tag} className="px-3 py-1 text-xs font-medium bg-white dark:bg-dark-3 border border-gray-200 dark:border-white/10 rounded-full text-blue-600 dark:text-blue-400">
@@ -49,7 +49,7 @@ export const About = () => {
             
             <hr className="my-6 border-gray-200 dark:border-white/10" />
             
-            <h3 className="text-xl font-bold text-dark dark:text-white mb-4">Key Certifications</h3>
+            <h3 className="text-center md:text-start text-xl font-bold text-dark dark:text-white mb-4">Key Certifications</h3>
             <div className="space-y-3">
               <div className="flex items-center gap-3 text-sm">
                 <span className="text-blue-600">☁️</span>

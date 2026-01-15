@@ -13,11 +13,11 @@ export const RecentPostList = async () => {
         ))}
       </div>
 
-      <div className="mt-14 flex justify-center">
+      {/* <div className="mt-14 flex justify-center">
        <Link href='/blogs' className="font-medium text-dark border border-dark rounded-md py-3 px-7.5 hover:bg-dark hover:text-white ease-in duration-200">
             Show more...
           </Link>
-      </div>
+      </div> */}
     </div>
   );
 };

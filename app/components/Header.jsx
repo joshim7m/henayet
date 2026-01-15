@@ -11,11 +11,11 @@ const menuData = [
     name: "About",
     href: "/about",
     submenu: [
-      { name: "Professional Experience", href: "/experience", icon: <Briefcase size={16} /> },
-      { name: "Education", href: "/education", icon: <GraduationCap size={16} /> },
-      { name: "Training & Skills", href: "/skills", icon: <Award size={16} /> },
-      { name: "Conferences", href: "/conferences", icon: <Mic2 size={16} /> },
-      { name: "Publications", href: "/publications", icon: <BookOpen size={16} /> },
+      { name: "Professional Experience", href: "/about/experience", icon: <Briefcase size={16} /> },
+      { name: "Education", href: "/about/education", icon: <GraduationCap size={16} /> },
+      { name: "Training & Skills", href: "/about/skills", icon: <Award size={16} /> },
+      { name: "Conferences", href: "/about/conferences", icon: <Mic2 size={16} /> },
+      { name: "Publications", href: "/about/publications", icon: <BookOpen size={16} /> },
     ],
   },
   {
@@ -64,7 +64,7 @@ export const Header = () => {
             
             {/* The Initial */}
             <span className="relative text-2xl font-black text-blue-600 dark:text-blue-400">
-              H
+              MD
             </span>
           </div>
 

@@ -15,7 +15,7 @@ export const Hero = () => {
               <div className="max-w-[277px] w-full h-[277px] rounded-full flex items-center justify-center border border-gray-3">
                 <div className="max-w-[165px] w-full h-[165px] shadow-img rounded-full overflow-hidden">
                   <Image
-                    src="/hm-enayet.png"
+                    src="/muhammad-enayet-hossian.png"
                     alt="Mohamamd Enayet Hossain"
                     width={165}
                     height={165}
@@ -28,7 +28,7 @@ export const Hero = () => {
                    Mohammad <span className="font-bold">  Enayet Hossain</span>
                 </h1>
                 <p className="text-center md:text-left dark:text-gray-4">
-                 Researcher and PhD candidate specializing in the intersection of Islamic Finance, FinTech, and Data Analytics. I bridge ethical financial systems with technological innovation to drive sustainable economic development and global financial inclusion.
+                 Conventional and Islamic Finance Researcher || Economics Professional || Blockchain & FinTech Professional || Corporate Finance & Data Analytics Specialist || AML/CFT & Compliance Professional || SDG Practitioner || Social Innovator || Community Leader
                 </p>
 
                 <div className="flex items-center gap-3">
