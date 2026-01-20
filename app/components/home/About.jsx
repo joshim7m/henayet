@@ -11,27 +11,9 @@ export const About = () => {
             About Me
           </h2>
           <div className="flex flex-col gap-6 text-base leading-relaxed text-gray-600 dark:text-gray-400">
-            <p>
-              I am <span className="font-semibold text-dark dark:text-white">Mohammad Enayet Hossain</span>, 
-              a researcher and professional bridging the gap between <span className="text-blue-600">Islamic Finance, FinTech, and Data Analytics</span>. 
-              Currently, I serve as a Research Associate at the IIUM Institute of Islamic Banking and Finance (IIiBF), 
-              contributing to global research and industry collaboration.
-            </p>
-            <p>
-              My professional journey includes impactful roles as a Project Officer with <span className="font-medium text-dark dark:text-white">The World Bank (IPFF)</span> 
-              and leadership positions at CBL Money Transfer. I specialize in regulatory compliance, AML/CFT, 
-              and financial operations designed to support underserved communities.
-            </p>
-            <p>
-              With a PhD in progress and an MBA in Data Analytics from Indiana Wesleyan University, 
-              my research on blockchain and sustainable development has been published in Q1 journals like 
-              <span className="italic"> Innovation and Knowledge</span> and <span className="italic">IEEE Access</span>.
-            </p>
-            <p>
-              Driven by social impact, I lead <span className="font-medium text-dark dark:text-white">Friends’ Foundation</span> 
-              and <span className="font-medium text-dark dark:text-white">YouthHub Global</span>, 
-              striving to integrate ethical finance with technological innovation for a more inclusive economic future.
-            </p>
+            <p>I am deeply intrigued by the rapid advancements in financial technology (FinTech) within the Conventional & Islamic financial ecosystem and am driven by a strong aspiration to contribute toward reducing socio-economic disparities across communities. My academic and professional journey is rooted in Islamic Economics, Banking, and Finance, with a comprehensive and interdisciplinary focus on Corporate Finance, Islamic Finance, Conventional Finance, FinTech-driven innovation, financial inclusion, data analytics, and sustainable economic development.</p>
+            <p>I bring multiple years of professional experience in financial services, regulatory compliance, project management, AML/CFT implementation, financial operations, and stakeholder engagement. My work has consistently focused on supporting underserved communities through responsible financial practices and data-informed decision-making.</p>
+            <p>Beyond academia and consultancy, I am deeply committed to social development and community empowerment. I serve as the Co-Founder and President of Friends’ Foundation, the Co-Founder of Global Society for Islamic Social Finance (GSISF), and the Executive Director of YouthHub Global, these social organizations dedicated to youth development, social welfare, and community service.  Through these initiatives, I strive to promote leadership, ethical values, and sustainable social impact. My vision is to integrate ethical finance, technological innovation, and research-driven insights to advance inclusive, responsible, and sustainability-focused economic development.</p>
           </div>
         </div>
 
