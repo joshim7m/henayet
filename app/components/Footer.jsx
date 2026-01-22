@@ -13,7 +13,7 @@ export const Footer = () => {
         {/* Logo Section */}
         <a href="" className="inline-block hover:opacity-90 transition-opacity">
           <h2 className="text-2xl font-semibold text-white">
-            <span className="text-blue-500 font-bold text-3xl">MD. Enayet</span> Hossain
+            <span className="text-blue-500 font-bold text-3xl">Mohammad Enayet</span> Hossain
           </h2>
         </a>
 
